@@ -1,0 +1,16 @@
+.login {
+  display: grid;
+  background-color: aqua;
+  border: solid blue;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  align-content: center;
+}
+
+.loginForm {
+  display: grid;
+  grid-template-columns: 200px;
+  grid-gap: 10px;
+  justify-content: center;
+}
