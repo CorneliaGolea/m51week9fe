@@ -7,3 +7,10 @@
   height: 300px;
   align-content: center;
 }
+
+.registerForm {
+  display: grid;
+  grid-template-columns: 200px;
+  grid-gap: 10px;
+  justify-content: center;
+}
