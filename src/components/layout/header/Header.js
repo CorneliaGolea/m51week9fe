@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 
 const Header = ({ user }) => {
-  if (!user.token) {
+  if (!user) {
     return <h1>Not logged in</h1>;
   }
 
